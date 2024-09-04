@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+    --cor01: #302E33;
+    --cor02: #7E2CFA;
+    --cor03: #5400CC;
+    --cor04: #6335A0;
+    --cor05: #543B75;
+    --cor06: #3D324B
+
+
+
+body {
+    
+}   
+
+.caixa-principal {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagens/FOTOPROGRAMACAO2.png);
+    background-size: 370px;
+    background-position: calc(100% - 250px) center;
+    background-repeat: no-repeat;
+    background-color: #191919;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolio {
+    color: white;
+    font: 35px;
+}
+
+.portfolio span {
+    ;
+}
