@@ -3,16 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
-    
 }
-
-    --cor01: #302E33;
-    --cor02: #7E2CFA;
-    --cor03: #5400CC;
-    --cor04: #6335A0;
-    --cor05: #543B75;
-    --cor06: #3D324B
-
+    
+:root {
+    --cor01: #332FFA;
+    --cor02: #2F6CFA;
+    --cor03: #009BFA;
+    --cor04: #2FACFA;
+    --cor05: #2FECFA;
+    --cor06: #20FAC0;
+    --cor07: #00C7FF;
+    --cor08: #0093C4;
+    
+    
+        --fonte01: "Poppins", sans-serif;
+}
 
 
 body {
@@ -23,10 +28,10 @@ body {
     height: 100vh;
     width: 100vw;
     background-image: url(imagens/FOTOPROGRAMACAO2.png);
-    background-size: 370px;
-    background-position: calc(100% - 250px) center;
+    background-size: 460px;
+    background-position: calc(100% - 220px) center;
     background-repeat: no-repeat;
-    background-color: #191919;
+    background-color: #161616;
     
 }
 
@@ -34,15 +39,57 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 85px 265px 0px 180px   ;
 }
 
 .portfolio {
     color: white;
-    font: 35px;
+    font-size: 40px;
+    font-weight: 1000;
 }
 
 .portfolio span {
-    ;
+    color: var(--cor07)
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: var(--cor08);
+    transition: 0.5s;
+    
+}
+
+.nome {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
+
+.nome>h1 {
+    color: white;
+}
+
+.nome>h1 span {
+    color: var(--cor07);
+}
+
+.nome>h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.nome>h3 span {
+
 }
