@@ -39,7 +39,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 85px 265px 0px 180px   ;
+    padding: 65px 265px 0px 180px   ;
 }
 
 .portfolio {
@@ -91,5 +91,5 @@ li:hover {
 }
 
 .nome>h3 span {
-
+  color: white;
 }
