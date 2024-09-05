@@ -24,22 +24,33 @@ body {
     background-color: #131313;
 }   
 
-.caixa-principal {
+header {
+   position: fixed;
+   background-color: #000000bb;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.308);
+ 
+}
+
+
+.caixa-secundaria {
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     background-image: url(imagens/FOTOPROGRAMACAO2.png);
     background-size: 460px;
     background-position: calc(100% - 300px) center;
     background-repeat: no-repeat;
     background-color: #131313;
     
+    
 }
 
-nav {
+header nav {
+    
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 65px 305px 0px 180px   ;
+    padding: 24px 305px 24px 180px   ;
 }
 
 .portfolio {
@@ -62,10 +73,17 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-menu:hover {
     color: var(--cor08);
     transition: 0.5s;
-    
 }
 
 .nome {
@@ -96,7 +114,7 @@ li:hover {
 
 section.sobre {
     
-    margin: 40px 200px 275px 200px;
+    margin: 40px 200px 75px 200px;
     
     border-radius: 30px;
     color: white;
@@ -115,7 +133,8 @@ section.sobre {
     margin-right: 70px;
 }
 
-div h2 {
+.sobreh2 h2 {
+    padding-top: 100px;
     color: white;
     font-size: 75px;
     font-weight: 800;
@@ -152,7 +171,7 @@ section.sobre div button {
 
 .projetos {
     background-color: #131313;
-    
+    padding: 200px 200px 330px 200px;
 }
 
 .projetos h2 {
@@ -224,3 +243,90 @@ section.sobre div button {
     border: 1.8px solid var(--cor08);
 }
 
+footer {
+    box-shadow: 0px -9px 5px rgba(0, 0, 0, 0.384);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 90px 0px 60px 0px;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 2px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+
+}
+
+.social a {
+    background-color: var(--cor08);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.social a:hover {
+    transform: scale(1.2);
+    transition: .35s;
+}
+
+button:active, a:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    header nav {
+        padding: 24px 10%;
+    }
+
+    .caixa-secundaria {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .nome {
+        top: 40%;
+        left: 10%;
+        font-size: 30px;
+    }
+
+    .sobre, .projetos {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
