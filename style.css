@@ -29,7 +29,7 @@ body {
     width: 100vw;
     background-image: url(imagens/FOTOPROGRAMACAO2.png);
     background-size: 460px;
-    background-position: calc(100% - 220px) center;
+    background-position: calc(100% - 300px) center;
     background-repeat: no-repeat;
     background-color: #131313;
     
@@ -39,7 +39,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 65px 265px 0px 180px   ;
+    padding: 65px 305px 0px 180px   ;
 }
 
 .portfolio {
@@ -56,7 +56,7 @@ li {
     color: white;
     list-style: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 1000;
     margin-left: 30px;
     cursor: pointer;
@@ -73,7 +73,7 @@ li:hover {
     top: 45%;
     left: 15%;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 45px;
     
 }
 
@@ -87,7 +87,7 @@ li:hover {
 
 .nome>h3 {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .nome>h3 span {
@@ -96,19 +96,19 @@ li:hover {
 
 section.sobre {
     
-    margin: 40px 200px 165px 200px;
+    margin: 40px 200px 275px 200px;
     
     border-radius: 30px;
     color: white;
     display: flex;
     align-items: center;
-    padding: 50px 8%;
+    padding: 60px 8%;
     background-color: #00000094;
     box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.514);
     
 }
 
-section.sobre img {
+.sobre img {
     border-radius: 100%;
     border: 0.1px solid white;
     width: 400px;
@@ -125,7 +125,7 @@ div h2 {
 section.sobre div p {
     text-align: left;
     color: rgb(155, 209, 209);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     margin: 30px 0 40px 0;
     justify-content: stretch;
@@ -133,11 +133,11 @@ section.sobre div p {
 
 section.sobre div button {
     font-weight: 1000;
-    font-size: 18px;
+    font-size: 21px;
     color: whitesmoke;
     background: var(--cor07);
-    height: 50px;
-    width: 170px;
+    height: 60px;
+    width: 160px;
     border-radius: 20px;
     border: none;
 }
@@ -152,6 +152,7 @@ section.sobre div button {
 
 .projetos {
     background-color: #131313;
+    
 }
 
 .projetos h2 {
@@ -167,6 +168,7 @@ section.sobre div button {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    
 }
 
 .card {
@@ -176,6 +178,7 @@ section.sobre div button {
     border-radius: 30px;
     padding: 20px 35px;
     text-align: center;
+    box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.514);
     
 }
 
