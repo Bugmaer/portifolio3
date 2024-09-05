@@ -21,7 +21,7 @@
 
 
 body {
-    
+    background-color: #161616;
 }   
 
 .caixa-principal {
@@ -94,29 +94,34 @@ li:hover {
   color: white;
 }
 
-section {
-    border: 1px solid white;
+section.sobre {
+    
+    margin: 160px 200px 165px 200px;
+    
+    border-radius: 30px;
     color: white;
     display: flex;
     align-items: center;
-    padding: 50px 14%;
+    padding: 50px 8%;
     background-color: #000000;
+    box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.514);
     
 }
 
-section img {
+section.sobre img {
     border-radius: 100%;
     border: 0.1px solid white;
     width: 400px;
     margin-right: 70px;
 }
 
-section div h2 {
+section.sobre div h2 {
     font-size: 75px;
     font-weight: 800;
 }
 
-section div p {
+section.sobre div p {
+    text-align: left;
     color: rgb(155, 209, 209);
     font-size: 25px;
     font-weight: 500;
@@ -124,7 +129,7 @@ section div p {
     justify-content: stretch;
 }
 
-section div button {
+section.sobre div button {
     font-weight: 1000;
     font-size: 18px;
     color: whitesmoke;
