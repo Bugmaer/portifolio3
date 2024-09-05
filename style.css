@@ -12,8 +12,8 @@
     --cor04: #2FACFA;
     --cor05: #2FECFA;
     --cor06: #20FAC0;
-    --cor07: #623645;
-    --cor08: #5F3547;
+    --cor07: #00C7FF;
+    --cor08: #0093C4;
     
     
         --fonte01: "Poppins", sans-serif;
@@ -27,7 +27,7 @@ body {
 .caixa-principal {
     height: 100vh;
     width: 100vw;
-    background-image: url(imagens/fotoprogramacao3.png);
+    background-image: url(imagens/FOTOPROGRAMACAO2.png);
     background-size: 460px;
     background-position: calc(100% - 220px) center;
     background-repeat: no-repeat;
@@ -95,15 +95,50 @@ li:hover {
 }
 
 section {
+    border: 1px solid white;
     color: white;
     display: flex;
     align-items: center;
-    padding: 30px 0px;
+    padding: 50px 14%;
     background-color: #000000;
+    
 }
 
 section img {
     border-radius: 100%;
     border: 0.1px solid white;
     width: 400px;
+    margin-right: 70px;
+}
+
+section div h2 {
+    font-size: 75px;
+    font-weight: 800;
+}
+
+section div p {
+    color: rgb(155, 209, 209);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 40px 0;
+    justify-content: stretch;
+}
+
+section div button {
+    font-weight: 1000;
+    font-size: 18px;
+    color: whitesmoke;
+    background: var(--cor07);
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1.5px solid var(--cor08);
 }
