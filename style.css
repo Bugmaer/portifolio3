@@ -187,6 +187,7 @@ section.sobre div button {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+ 
     
 }
 
@@ -195,22 +196,23 @@ section.sobre div button {
     width: 335px;
     height: 365px;
     border-radius: 30px;
-    padding: 20px 35px;
+    padding: 17px 35px;
     text-align: center;
     box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.514);
     
 }
 
 .card h5 {
+    padding-top: 7px;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     
 }
 
 .card p {
     color: rgb(155, 209, 209);
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 27px;
